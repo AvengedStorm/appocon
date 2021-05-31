@@ -18,3 +18,9 @@ Nav {
   align-items: center;
   list-style: none;
 }
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

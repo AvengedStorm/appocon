@@ -3,7 +3,8 @@ import {Link, withRouter} from 'react-router-dom';
 
 function Nav() {
     const navStyle = {
-        color: 'white'
+        color: 'white',
+        textDecoration: 'none'
     }
 
   return (
