@@ -24,3 +24,13 @@ form {
   justify-content: space-around;
   align-items: center;
 }
+
+table, th, td {
+  display: inline-block;
+  align-content: center;
+  width: "100%";
+}
+th, td {
+  width: 20vw;
+  border: 2px solid black;
+}
