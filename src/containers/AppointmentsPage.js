@@ -1,5 +1,6 @@
 import React from 'react';
 import react, {useState, useEffect} from 'react';
+import DatePicker from "react-datepicker";
 
 class AppointmentsPage extends React.Component {
   render() {

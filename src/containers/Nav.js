@@ -11,14 +11,14 @@ function Nav() {
     <div className="Nav">
       <nav>
           <Link style={navStyle} to="/">
-          <h3>AppoCon</h3>
+          <h3 className="nav">AppoCon</h3>
           </Link>
           <ul className="nav-links">
               <Link style={navStyle} to="/containers/ContactsPage">
-              <li>Contacts</li>
+              <li className="nav">Contacts</li>
               </Link>
               <Link style={navStyle} to="/containers/AppointmentsPage">
-              <li>Appointments</li>
+              <li className="nav">Appointments</li>
               </Link>
           </ul>
       </nav>

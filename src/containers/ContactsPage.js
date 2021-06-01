@@ -7,9 +7,9 @@ class ContactsPage extends React.Component {
     this.state = {
       savedContacts: [
         {
-          firstName: this.handleNameChange.value,
-          lastName: this.handleLastNameChange.value,
-          phoneNumber: this.handlePNumberChange.value
+          firstName: "",
+          lastName: "",
+          phoneNumber: ""
         }
       ]
     }
@@ -32,13 +32,19 @@ class ContactsPage extends React.Component {
     this.setState({phoneNumber: c.target.value})
   }
 
-  handleSubmit() {
+  handleSubmit(e) {
+    e.preventDefault();
     const contact = {
-      firstName: this.contact.firstName,
-      lastName: this.contact.lastName,
-      phoneNumber: this.contact.phoneNumber
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      phoneNumber: this.state.phoneNumber
     }
-    this.state.savedContacts.push(contact);
+    this.setState({...this.state, savedContacts: [...this.state.savedContacts, contact]})
+    this.setState({
+      firstName: "",
+      lastName: "",
+      phoneNumber: ""
+    })
   }
 
   renderContacts() {
