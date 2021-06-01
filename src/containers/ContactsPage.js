@@ -67,25 +67,27 @@ class ContactsPage extends React.Component {
           <h2>Contacts Page:</h2>
           <form>
             <h2>Contact:</h2>
-            <label htmlFor="firstName">First Name:</label>
-            <input id="firstName" name="firstName" type="text" value={this.state.firstName} onChange={this.handleNameChange}/>
+            <label htmlFor="firstName">First Name: </label>
+            <input id="firstName" name="firstName" type="text" value={this.state.firstName} onChange={this.handleNameChange} placeholder="Contact's first name"/>
               <br/>
-            <label htmlFor="lastName">Last Name:</label>
-            <input id="lastName" name="lastName" type="lastName" value={this.state.lastName} onChange={this.handleLastNameChange}/>
+            <label htmlFor="lastName">Last Name: </label>
+            <input id="lastName" name="lastName" type="lastName" value={this.state.lastName} onChange={this.handleLastNameChange} placeholder="Contact's last name"/>
               <br/>
-            <label htmlFor="phoneNumber">Phone Number:</label>
-            <input id="phoneNumber" name="phoneNumber" type="text" value={this.state.phoneNumber} onChange={this.handlePNumberChange}/>
+            <label htmlFor="phoneNumber">Phone Number: </label>
+            <input id="phoneNumber" name="phoneNumber" type="text" value={this.state.phoneNumber} onChange={this.handlePNumberChange} placeholder="Contact's phone"/>
               <br/>
-            <button onClick={this.handleSubmit}>Send data!</button>
+            <button onClick={this.handleSubmit}>Save data!</button>
           </form>
         </div>
         <div>
             <h1>Contacts Table</h1>
             <table id='contacts'>
               <thead style={{fontWeight:"bold"}}>
-                <td>FIRST NAME</td>
-                <td>LAST NAME</td>
-                <td>PHONE NUMBER</td>
+                <tr>
+                  <td>FIRST NAME</td>
+                  <td>LAST NAME</td>
+                  <td>PHONE NUMBER</td>
+                </tr>
               </thead>
                <tbody>
                   {this.renderContacts()}

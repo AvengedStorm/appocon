@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 Nav {
@@ -20,15 +20,17 @@ Nav {
 }
 
 form {
-  display: flex;
+  display: block;
+  text-align: center;
   justify-content: space-around;
   align-items: center;
 }
 
 table, th, td {
-  display: inline-block;
+  margin: auto;
   align-content: center;
   width: "100%";
+  text-align: center;
 }
 th, td {
   width: 20vw;
@@ -45,3 +47,5 @@ th, td {
   background: lightblue;
   color: black;
 }
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");
