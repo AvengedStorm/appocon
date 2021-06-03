@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/appocon/static/css/main.7e7f1d24.chunk.css",
+    "main.js": "/appocon/static/js/main.1455f308.chunk.js",
+    "main.js.map": "/appocon/static/js/main.1455f308.chunk.js.map",
+    "runtime-main.js": "/appocon/static/js/runtime-main.51de61da.js",
+    "runtime-main.js.map": "/appocon/static/js/runtime-main.51de61da.js.map",
+    "static/js/2.97b652ab.chunk.js": "/appocon/static/js/2.97b652ab.chunk.js",
+    "static/js/2.97b652ab.chunk.js.map": "/appocon/static/js/2.97b652ab.chunk.js.map",
+    "static/js/3.4a727f10.chunk.js": "/appocon/static/js/3.4a727f10.chunk.js",
+    "static/js/3.4a727f10.chunk.js.map": "/appocon/static/js/3.4a727f10.chunk.js.map",
+    "index.html": "/appocon/index.html",
+    "static/css/main.7e7f1d24.chunk.css.map": "/appocon/static/css/main.7e7f1d24.chunk.css.map",
+    "static/js/2.97b652ab.chunk.js.LICENSE.txt": "/appocon/static/js/2.97b652ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51de61da.js",
+    "static/js/2.97b652ab.chunk.js",
+    "static/css/main.7e7f1d24.chunk.css",
+    "static/js/main.1455f308.chunk.js"
+  ]
+}
